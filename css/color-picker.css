@@ -1,0 +1,165 @@
+.color-choose {
+  top: 310px;
+  /* left: 20px; */
+  z-index: 99;
+  float: right;
+}
+
+.color-choose div {
+  display: inline-block;
+}
+
+.color-choose input[type="radio"] {
+  display: none;
+}
+
+label {
+  cursor: default;
+}
+
+.color-choose input[type="radio"]#red+label span {
+  background-color: #C91524;
+}
+
+/* .color-choose input[type="radio"]:checked + label span {
+  background-image: url(../img/check-icn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.color-choose input[type="radio"]+label span {
+  /* border: 2px solid #FFFFFF; */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 33%);
+}
+
+.color-choose input[type="radio"]+label span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  /* border-radius: 50%; */
+  margin-top: 10px;
+}
+
+.product-color span,
+.cable-config span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #86939E;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.product-images img {
+  width: 100%;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.product-images img.active {
+  opacity: 1;
+}
+
+.dropdown dd,
+.dropdown dt,
+.dropdown ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown dd {
+  position: relative;
+  z-index: 99;
+}
+
+/* The visible container */
+
+.dropdown dt a {
+  background: #ffffff url(../images/arrow1.png) no-repeat scroll 97.5% center;
+  display: block;
+  padding-right: 20px;
+  padding: 5px;
+  width: 200px;
+  height: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  min-height: calc(1.5em + .5rem + 2px);
+}
+
+/* width: 204px;
+  height: 20px;
+  text-align: left;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  min-height: calc(1.5em + .5rem + 2px); */
+
+/*.dropdown dt a span {cursor:pointer; display:block; padding:0px 5px 0px 5px;line-height: 18px; vertical-align: middle; }*/
+
+.dropdown dt a:hover {
+  color: #212121;
+  border: 1px solid #999999;
+}
+
+/* Text for both (box and options) */
+
+.dropdown a,
+.dropdown a:visited {
+  color: #555555;
+  text-decoration: none;
+  outline: none;
+}
+
+.dropdown a:hover {
+  color: #212121;
+}
+
+/* The container for the dropdown options */
+
+.dropdown dd ul {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #d3d3d3;
+  color: #555555;
+  display: none;
+  left: 0px;
+  padding: 5px 0px;
+  position: absolute;
+  top: 0px;
+  width: 200px;
+  list-style: none;
+}
+
+/* The dropdown options */
+
+.dropdown dd ul li a {
+  padding: 5px;
+  display: block;
+}
+
+.dropdown span.value {
+  display: none;
+}
+
+/* If using images */
+
+.dropdown img.flag {
+  border: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+/* If using colors */
+
+.dropdown .color {
+  border: 1px solid silver;
+  vertical-align: middle;
+  margin-right: 5px;
+  min-width: 10px;
+}

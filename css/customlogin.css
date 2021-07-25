@@ -1,0 +1,133 @@
+.card {
+    width: 400px;
+    border: none
+}
+
+.btr {
+    border-top-right-radius: 5px !important
+}
+
+.btl {
+    border-top-left-radius: 5px !important
+}
+
+.btn-dark {
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+}
+
+.btn-dark:hover {
+    color: #fff;
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    color: grey;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: table-cell;
+}
+
+.form {
+    padding: 10px;
+    /* height: 300px */
+}
+
+.form input {
+    margin-bottom: 12px;
+    border-radius: 0px
+    
+}
+
+.form input:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+.form button {
+    margin-top: 20px
+} 
+
+.nav-pills .nav-link.active {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 0 15px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}
+
+.create-account-sub {
+  font-size: 13px;
+  text-align: center;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.create-account-title {
+  font-size: 18px;
+  text-align: center;
+  text-transform: none;
+  font-weight: 400;
+}
+a {
+  color: #000;
+}
+
+.social-login-icons>a.fa-apple, .social-login-icons>a.fa-facebook, .social-login-icons>a.fa-google, .social-login-icons>a.fa-twitter, .social-login-icons>a.fa-instagram {
+  padding: 20px;
+  font-size: 20px !important;
+  width: 60px !important;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-login-icons>a.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.social-login-icons>a.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social-login-icons>a.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.social-login-icons>a.fa-apple {
+  background: #000000;
+  color: white;
+}
+
+.socialicons {
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top !important;
+  padding: 20px;
+  background: #ffffff !important;
+  border-radius: 50%;
+  float: none;
+  width: 60px;
+  height: 60px;
+  color:#000000;
+  text-align: center;
+}
